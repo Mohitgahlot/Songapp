@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="google" content="notranslate">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="hero-section">
+                <div class="left-section">
+                    <ul class="left-components-block" data-select="recommendation">
+                        <li class="left-components" id="recommendation">Recommendation</li>
+                        <li class="left-components" id="my-list">My List</li>
+                        <li class="left-components" id="popular">Popular choice</li>
+                    </ul>
+                </div>
+                <div class="right-section">
+                    <header>
+                        <div class="search">
+                            <input type="text" list="songs" placeholder="Search">
+                            <datalist id="songs">
+                                <option value="Khoo Gaye Hum Kaha">
+                                <option value="Saasein">
+                                <option value="Dariya">
+                                <option value="Kadam Song">
+                                <option value="Cold/Mess">
+                              </datalist>
+                        </div>
+                        <div class="user">
+                            <span id="user-icon"></span>
+                            <span>Mohit Gahlot</span>
+                        </div>
+                    </header>
+                    <ul class="song-collection">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+    </body>
+</html>
